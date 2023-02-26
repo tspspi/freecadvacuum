@@ -72,8 +72,14 @@ class ConflatFlange:
 			return Part.makeBox(x,y,z, Vector(-x/2, -y/2, -z/2))
 
 	def execute(self, fp):
+		oldplacement = None
+		if fp.Shape is not None:
+			oldplacement = fp.Shape.Placement
+
 		if ((fp.pipeWallWidth*2) >= fp.pipeDiameter) and (fp.pipeDiameter > 0):
 			raise ValueError("Pipe wall width is too large for specified pipe diameter")
+		if (fp.pipeDiameter > int(fp.cf)):
+			raise ValueError(f"Pipe diameter {fp.pipeDiameter} too large for CF{fp.cf} flange")
 
 		# First select parameters ....
 		pars = self._cf_dimensions[int(fp.cf)]
@@ -130,6 +136,9 @@ class ConflatFlange:
 		grove02.Placement = groov02r.multiply(grove02.Placement)
 		flange = flange.cut(grove01)
 		flange = flange.cut(grove02)
+
+		if oldplacement is not None:
+			flange.Placement = oldplacement
 
 		fp.Shape = flange
 
