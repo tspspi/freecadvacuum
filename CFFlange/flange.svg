@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:freecad="http://www.freecadweb.org/wiki/index.php?title=Svg_Namespace"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   id="svg2"
+   version="1.1"
+	 width="100"
+	 height="100">
+<g id="Ortho_0_0"
+   transform="rotate(0,148.5,81.5066) translate(50,50) scale(4,4)"
+  >
+<g   fill="none"
+   stroke="rgb(0, 0, 0)"
+   stroke-linecap="butt"
+   stroke-linejoin="miter"
+   stroke-width="0.087500"
+   transform="scale(1,-1)"
+  >
+	<path d="M12.5 0 A12.5 12.5 0 0 1 11.1808 5.58922" /><path d="M11.1808 5.58922 A12.5 12.5 0 0 1 10.4308 6.88826" /><path d="M10.4308 6.88826 A12.5 12.5 0 0 1 -11.1808 -5.58922" /><path d="M-11.1808 -5.58922 A12.5 12.5 0 0 1 -10.4308 -6.88826" /><path d="M-10.4308 -6.88826 A12.5 12.5 0 0 1 12.5 -3.06162e-15" /><path id= "6" d=" M -10.4308 -6.88826 L -5.43448 -4.00362 " />
+<path d="M-5.43448 -4.00362 A6.75 6.75 0 0 1 6.75 -1.65327e-15" /><path d="M6.75 0 A6.75 6.75 0 0 1 6.18448 2.70458" /><path id= "9" d=" M 11.1808 5.58922 L 6.18448 2.70458 " />
+<circle cx ="-4.4" cy ="-7.62102" r ="1.65" /><circle cx ="4.4" cy ="-7.62102" r ="1.65" /><circle cx ="8.8" cy ="0" r ="1.65" /><path d="M6.18448 2.70458 A6.75 6.75 0 0 1 5.43448 4.00362" /><path id= "14" d=" M 10.4308 6.88826 L 5.43448 4.00362 " />
+<path d="M5.43448 4.00362 A6.75 6.75 0 0 1 -6.18448 -2.70458" /><path id= "16" d=" M -11.1808 -5.58922 L -6.18448 -2.70458 " />
+<circle cx ="-8.8" cy ="1.07769e-15" r ="1.65" /><circle cx ="-4.4" cy ="7.62102" r ="1.65" /><circle cx ="4.4" cy ="7.62102" r ="1.65" /><path d="M-6.18448 -2.70458 A6.75 6.75 0 0 1 -5.43448 -4.00362" /><circle cx ="0" cy ="0" r ="5.25" /></g>
+</g>
+
+</svg>
