@@ -1,10 +1,6 @@
 import FreeCAD, Part, math
 from FreeCAD import Vector, Placement, Rotation
 
-__title__ = "CFFlange"
-__author__ = "Thomas Spielauer"
-__doc__ = "Conflat Flanges"
-
 class ConflatFlange:
 	_cf_dimensions = {
 		10 : { 'outsideDiameter' :  25.0, 'tubeMax' :  12.0, 'boltN' :  6, 'boltHoleDia' :  3.3, 'boltThreadM' :  3, 'boltIncl' : 0.50, 'boltCircle' :  17.6, 'boltPositionTolerance' : 0.1, 'sealRecess' :  13.5, 'knifeEdge' :  10.5, 'pipeConnectionDepth' :  3.0, 'setbackInnerRotateable' :    0, 'thickness' :  6.0 },
@@ -139,7 +135,6 @@ class ConflatFlange:
 
 	@staticmethod
 	def makeFlange(name = "CFFlange"):
-		#obj = doc.addObject("Part::FeaturePython", name)
 		obj = FreeCAD.ActiveDocument.addObject("Part::FeaturePython", name)
 		ConflatFlange(obj)
 		if FreeCAD.GuiUp:
