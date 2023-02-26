@@ -7,6 +7,8 @@ __Work in progress__: Really new experimental stuff, my first FreeCAD extension.
 
 Currently it includes support for:
 
+![Conflat flanges](https://raw.githubusercontent.com/tspspi/freecadvacuum/master/doc/screenshot01.png)
+
 * Conflat flanges (16-400)
    * Note that this is currently not automatically loaded even when included
 	   in the ```Mod``` directory and has to be imported using ```import CFFlange```
